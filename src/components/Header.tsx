@@ -2,17 +2,22 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+
 
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
  
+  function toggle() {
+    setIsOpen(!isOpen);
+    console.log("isOpen:", isOpen);
+  }
 
   return (
   <div>
-      <nav className="bg-white dark:bg-slate-900 w-full fixed top-0 left-0 right-0 z-10 py-3">
+      <div className="bg-white dark:bg-slate-900 w-full fixed top-0 left-0 right-0 z-10 py-3">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between">
@@ -23,15 +28,15 @@ export default function Header() {
               </Link>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-gray-700 outline-none rounded-md focus:border-purple-400"
-                  onClick={() => setIsOpen(!isOpen)}
-                >
+                  className="p-2 text-gray-700 outline-none bg-white h-8 rounded-md focus:border-purple-400"
+                  type="button"
+                  onClick={toggle}>
                   {/* Check if 'isOpen' is true */}
-                  {isOpen ? (
-                    <FontAwesomeIcon icon={faTimes} className="text-2xl" />
-                  ) : (
-                    <FontAwesomeIcon icon={faBars} className="text-2xl" />
-                  )}
+                    {isOpen ? (
+                      <FontAwesomeIcon icon={faXmark}  />
+                    ) : (
+                      <FontAwesomeIcon icon={faBars} />
+                    )}
                 </button>
               </div>
             </div>
@@ -61,7 +66,7 @@ export default function Header() {
               </div>
           </div> 
         </div>
-      </nav>
+      </div>
   </div>
   );
 };
