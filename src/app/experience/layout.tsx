@@ -1,5 +1,3 @@
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 
 export default function ExperienceLayout({
     children, 
@@ -8,9 +6,9 @@ export default function ExperienceLayout({
   }) {
     return (
       <>
-        <Header />
-            <body>{children}</body>
-        <Footer />
+       
+          <section>{children}</section>
+        
       </>
     )
-  }
+}

@@ -5,7 +5,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
-    <footer className="text-center bg-white text-stone-700 p-5 dark:bg-slate-800 dark:text-slate-100 ">
+    <div>
+        <footer className="text-center bg-white text-stone-700 p-5 dark:bg-slate-800 dark:text-slate-100 ">
       <p>
         &copy; {new Date().getFullYear().toString()} created by Zach Gallman
       </p>
@@ -63,5 +64,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </div>
+    
   );
 };

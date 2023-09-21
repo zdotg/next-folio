@@ -16,7 +16,7 @@ export default function Header() {
   }
 
   return (
-  <div>
+  <>
       <div className="bg-white dark:bg-slate-900 w-full fixed top-0 left-0 right-0 z-10 py-3">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
@@ -48,8 +48,8 @@ export default function Header() {
               >
                 <ul className="md:flex space-x-4  ">
                     <li >
-                      <Link href="/skills" onClick={() => setIsOpen(!isOpen)}>
-                        <div className="text-purple-500 cursor-pointer">Skills</div>
+                      <Link href="/experience" onClick={() => setIsOpen(!isOpen)}>
+                        <div className="text-purple-500 cursor-pointer">Experience</div>
                       </Link>
                     </li>
                     <li >
@@ -67,7 +67,7 @@ export default function Header() {
           </div> 
         </div>
       </div>
-  </div>
+  </>
   );
 };
 
