@@ -5,21 +5,20 @@ import Link from "next/link";
 
 export default function Intro() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white dark:bg-slate-800">
-    <div className="flex flex-col lg:flex-row items-center shadow-md dark:bg-slate-800 text-stone-700 font-light dark:text-slate-100">
+    <div className="flex items-center justify-center min-h-screen  bg-white dark:bg-slate-800">
+    <div className="flex flex-col px-3 lg:flex-row items-center shadow-md dark:bg-slate-800 text-stone-700 font-light dark:text-slate-100">
         <div className="container mx-auto shadow-md">
-          <div className="flex flex-col lg:flex-row items-center mx-auto max-w-3xl">
+          <div className="flex flex-col lg:flex-row items-center mx-auto w-full">
             <div className="flex flex-col lg:w-2/3">
               <div className="pb-2">
-                
-                <h3 className="text-2xl lg:text-3xl">
+                <h3 className="text-2xl lg:text-3xl ">
                   <span className="text-purple-500 dark:text-white">Front End</span> {" "}
                   <span className="text-gradient">Web Developer</span>
                 </h3>
-                <small className="mt-2 dark:text-slate-100">
+                <h4 className="mt-2 text-lg dark:text-slate-100">
                   Utilizing a blend of technical skills, a growth mindset, and a
                   dedication to continuous learning!
-                </small>
+                </h4>
               </div>
               <div className="mt-4">
                 <Link legacyBehavior href="https://docs.google.com/document/d/1SCSk4tESLYwq_Ru8s5Hs9RYuQtkVeKgn_vGYJJchrAc/edit?usp=sharing" >

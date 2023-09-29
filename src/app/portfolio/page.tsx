@@ -14,12 +14,12 @@ export default function Projects()  {
           Projects
         </h2>
         <div className="flex flex-wrap justify-center columns-auto ">
-          <div className="w-full sm:w-1/2 lg:w-1/3 p-5">
+          <div className="w-full sm:w-1/2 lg:w-7/12 p-5">
             <div className="flex flex-col p-2 h-full mb-3 mx-auto overflow-hidden border-solid border-4 border-indigo-200 rounded-md">
               <Image
                 src={portfolio}
                 priority={true}
-                className="w-full h-1/2 object-cover "
+                className="w-full h-1/2 object-cover"
                 alt="Portfolio Snippet"
               />
               <div className="flex flex-grow p-4">
@@ -33,7 +33,7 @@ export default function Projects()  {
                   <div className="mt-4 ">
                     <Link
                       legacyBehavior
-                      href="https://github.com/zdotg/portfolio-app"
+                      href="https://github.com/zdotg/next-folio/tree/main"
                     >
                       <a className="px-4 py-2 inline-block bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
                         View Code

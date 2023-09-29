@@ -21,7 +21,7 @@ export default function Certs() {
   return (
     <div className="dark:bg-slate-800 bg-white">
       <div className="bg-indigo-50 rounded text-center py-5 w-10/12 mx-auto dark:bg-slate-600 dark:rounded dark:border-none">
-          <h2 className="text-center text-3xl font-light py-5 animate-char">
+          <h2 className="text-center text-3xl font-light py-5 text-white dark:animate-char">
             Certificates
           </h2>
         <div className="flex flex-wrap justify-center"> 

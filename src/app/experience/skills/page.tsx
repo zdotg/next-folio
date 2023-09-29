@@ -4,11 +4,11 @@ import React from "react";
 export default function Skills() {
   return (
     <div
-      className="flex min-h-screen py-10 justify-center bg-white text-slate-300 dark:bg-slate-800  "
+      className="flex min-h-screen py-8 justify-center bg-white text-slate-300 dark:bg-slate-800  "
       id="Skills"
     >
       <div className="max-w-3/4">
-        <h2 className="text-center text-3xl font-light py-5 animate-char">
+        <h2 className="text-center text-3xl text-white font-light py-2 dark:animate-char">
           Skills
         </h2>
         <div className="row text-center my-auto py-5 flex justify-center">
@@ -24,7 +24,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="row  py-5 text-center  text-slate-700 grid grid-cols-1 md:grid-cols-3 gap-4 dark:text-slate-100">
+        <div className="row  py-5 px-2 text-center border  text-slate-700 grid grid-cols-1 md:grid-cols-3 gap-4 dark:text-slate-100">
           <div className="mb-3 leading-relaxed capitalize hover:scale-125 ">
             <ul>
               <li>React</li>
