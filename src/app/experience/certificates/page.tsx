@@ -21,7 +21,10 @@ export default function Certs() {
   return (
     <div className="dark:bg-slate-800 bg-white">
       <div className="bg-indigo-50 rounded text-center py-5 w-10/12 mx-auto dark:bg-slate-600 dark:rounded dark:border-none">
-        <div className="flex flex-wrap justify-center">
+          <h2 className="text-center text-3xl font-light py-5 animate-char">
+            Certificates
+          </h2>
+        <div className="flex flex-wrap justify-center"> 
           {CERTIFICATES.map(certificate => (
             <CertificateItem
               key={certificate.name}
@@ -51,6 +54,7 @@ const CertificateItem: React.FC<CertificateItemProps> = ({ image, alt, descripti
         alt={alt}
         width={400}
         height={300}
+        priority={true}
       />
       <p>{description}</p>
     </div>

@@ -1,6 +1,7 @@
 export default function AcademicExperience() {
   return (
-    <table className="border border-none text-black">
+    <div className="flex items-center justify-center min-h-screen w-full dark:bg-slate-800">
+       <table className="border border-none mx-auto  dark:bg-slate-800 bg-white">
       <thead>
         <tr>
           <th className="border border-none px-3">
@@ -27,5 +28,7 @@ export default function AcademicExperience() {
         </tr>
       </tbody>
     </table>
+    </div>
+   
   );
 };

@@ -6,7 +6,7 @@ export default function Contact()  {
       <h2 className="text-center text-gradient text-2xl pb-2" id="Contact">
         Contact Me
       </h2>
-      <div className="mx-auto w-full lg:w-1/2 p-6 bg-slate-100 rounded-lg shadow-lg">
+      <div className="mx-auto w-80 lg:w-1/2 p-6 bg-slate-100 rounded-lg shadow-lg">
         <form action="https://formsubmit.co/zach.ecab@gmail.com" method="POST">
           <div className="mb-4">
             <label htmlFor="email" className="block mb-2 text-slate-700">

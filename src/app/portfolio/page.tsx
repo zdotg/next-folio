@@ -18,6 +18,7 @@ export default function Projects()  {
             <div className="flex flex-col p-2 h-full mb-3 mx-auto overflow-hidden border-solid border-4 border-indigo-200 rounded-md">
               <Image
                 src={portfolio}
+                priority={true}
                 className="w-full h-1/2 object-cover "
                 alt="Portfolio Snippet"
               />

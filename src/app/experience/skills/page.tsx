@@ -4,7 +4,7 @@ import React from "react";
 export default function Skills() {
   return (
     <div
-      className="flex justify-center bg-white text-slate-300 dark:bg-slate-800  "
+      className="flex min-h-screen py-10 justify-center bg-white text-slate-300 dark:bg-slate-800  "
       id="Skills"
     >
       <div className="max-w-3/4">
@@ -29,42 +29,42 @@ export default function Skills() {
             <ul>
               <li>React</li>
               <li>Next.js</li>
-              <li>Tailwind CSS </li>
               <li>HTML</li>
               <li>CSS</li>
+              <li>Python</li>
+              <li>Tailwind CSS </li>
               <li>JavaScript</li>
+              <li>SCSS</li>
               <li>Data Structures</li>
               <li>Object-Oriented Programming</li>
-              <li>Python</li>
-              <li>Cloud Deployments (AWS, GCS, Azure)</li>
-              <li>SCSS</li>
             </ul>
           </div>
           <div className="mb-3 leading-relaxed capitalize hover:scale-125">
             <ul>
               <li>Node.js</li>
               <li>Express.js</li>
-              <li>Responsive Web Design</li>
-              <li>Mobile-First Design Principles</li>
-              <li>Cross-Platform Design</li>
+              <li>Wire-framing</li>
               <li>Communication</li>
               <li>Teamwork</li>
               <li>Passion to Learn</li>
+              <li>Responsive Web Design</li>
+              <li>Cross-Platform Design</li>
+              <li>Mobile-First Design Principles</li>
               <li>Planning/Coordination with teams</li>
-              <li>Wire-framing</li>
-              <li>React Native</li>
             </ul>
           </div>
           <div className="mb-3 leading-relaxed capitalize hover:scale-125">
             <ul>
+              <li>React Native</li>
               <li>Redux/Context</li>
               <li>Dependencies</li>
               <li>Version Control</li>
-              <li>NoSQL Databases</li>
               <li>MongoDB/Atlas</li>
-              <li>Docker and Kubernetes</li>
               <li>Flask/Insomnia</li>
               <li>CI/CD Pipelines</li>
+              <li>NoSQL Databases</li>
+              <li>Docker and Kubernetes</li>
+              <li>Cloud Deployments (AWS, GCS, Azure)</li>
             </ul>
           </div>
         </div>

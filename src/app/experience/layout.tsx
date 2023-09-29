@@ -6,9 +6,11 @@ export default function ExperienceLayout({
   }) {
     return (
       <>
-       
-          <section>{children}</section>
-        
+        <div className="flex flex-col min-h-screen">
+          <section className="flex-grow">
+            {children}
+          </section> 
+        </div>  
       </>
     )
 }

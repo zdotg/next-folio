@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Intro() {
   return (
-    <div >
-       <div className="p-5 bg-white text-stone-700 font-light dark:text-slate-100 dark:bg-slate-800">
+    <div className="flex items-center justify-center min-h-screen bg-white dark:bg-slate-800">
+    <div className="flex flex-col lg:flex-row items-center shadow-md dark:bg-slate-800 text-stone-700 font-light dark:text-slate-100">
         <div className="container mx-auto shadow-md">
           <div className="flex flex-col lg:flex-row items-center mx-auto max-w-3xl">
             <div className="flex flex-col lg:w-2/3">
