@@ -6,15 +6,15 @@ import Link from "next/link";
 export default function Intro() {
   return (
     <div className="flex min-h-screen mt-10">
-    <div className="flex flex-col px-3 lg:flex-row shadow-md text-stone-700 font-light">
+    <div className="flex flex-col px-3 lg:flex-row shadow-md text-stone-500 font-light">
         <div className="container bg-clip-content shadow-md">
           <div className="flex flex-col lg:flex-row w-full">
             <div className="flex flex-col lg:w-2/3">
               <div className="pb-2">
                   <h3 className="text-4xl lg:text-5xl space-y-4">
                   <span className="text-xl pl-4">Hi, I'm Zach<br /></span>
-                    <div className="flex justify-center">
-                      <span className="text-purple-600 font-bold">Full Stack</span> {" "}
+                    <div className="flex justify-center bg-violet-100 rounded-full py-3">
+                      <span className="text-violet-500 font-semibold">Full Stack</span> {" "}
                       <span className="pb-0 pl-1">Developer<br/></span>
                     </div>
                   </h3>
@@ -27,13 +27,13 @@ export default function Intro() {
               </div>
               <div className="mt-4 pl-5">
                 <Link legacyBehavior href="https://docs.google.com/document/d/1SCSk4tESLYwq_Ru8s5Hs9RYuQtkVeKgn_vGYJJchrAc/edit?usp=sharing" >
-                  <a className="px-4 py-2 inline-block bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
+                  <a className="px-4 py-2 inline-block shadow-md bg-gradient-to-r from-violet-400 to-indigo-300 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
                     View My Resume
                   </a>
                 </Link>
               </div>
               <div className="mt-4 pl-5">
-                <Link href="/about" className="px-4 py-2 inline-block bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
+                <Link href="/about" className="px-4 py-2 shadow-md inline-block bg-gradient-to-r from-violet-400 to-indigo-300 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
                     About Me
                 </Link>
               </div>
