@@ -19,12 +19,12 @@ const CERTIFICATES= [
 
 export default function Certs() {
   return (
-    <div className=" bg-white">
-      <div className="bg-indigo-50 rounded text-center py-5 w-10/12 mx-auto ">
-          <h2 className="text-center text-3xl font-light py-5 text-white ">
+    <div className="bg-white">
+       <h2 className="text-center text-2xl font-light pb-5 text-gradient">
             Certificates
           </h2>
-        <div className="flex flex-wrap justify-center"> 
+      <div className="flex text-center py-5 w-10/12 mx-auto bg-zinc-100 place-content-center">
+        <div className="flex flex-wrap w-3/4"> 
           {CERTIFICATES.map(certificate => (
             <CertificateItem
               key={certificate.name}
