@@ -5,7 +5,7 @@ export default function AcademicExperience() {
       <h2 className="text-center text-gradient text-2xl font-light pb-5">
         Academic Qualifications
       </h2>
-      <table className="border-solid border-2 border-purple-600  mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12  bg-white">
+      <table className="border-solid border-2 border-purple-600 bg-zinc-100 mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12">
       <thead>
         <tr >
           <th className="border border-none ">
