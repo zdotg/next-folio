@@ -6,11 +6,11 @@ import Image from "next/image";
 export default function Projects()  {
   return (
     <section
-      className="bg-white text-stone-700 p-5 dark:bg-slate-800 dark:text-slate-100"
+      className="bg-white text-stone-700 p-5 "
       id="Portfolio"
     >
       <div className="container mx-auto px-4 py-10">
-        <h2 className="text-center text-3xl font-light py-5 animate-char">
+        <h2 className="text-center text-3xl font-light py-5">
           Projects
         </h2>
         <div className="flex flex-wrap justify-center columns-auto ">

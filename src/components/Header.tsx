@@ -20,14 +20,14 @@ export default function Header() {
 
   return (
     <div>
-      <div className="bg-white dark:bg-slate-900 w-full fixed top-0 left-0 right-0 z-10 py-3">
+      <div className="bg-white w-full fixed top-0 left-0 right-0 z-10 py-3">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div className="flex items-center justify-between">
               <Link
                 href="/"
-                className="text-3xl font-light text-stone-700 cursor-pointer dark:text-slate-100"
+                className="text-4xl font-light text-stone-700 cursor-pointer antialiased"
               >
-                Zach <span className="text-gradient">Gallman</span>;
+                <span className="text-gradient">ZG;</span>
               </Link>
               <div className="md:hidden">
                 <button
@@ -50,7 +50,7 @@ export default function Header() {
                   isOpen ? "md:p-0 block" : "hidden"
                 }`}
               >
-                <ul className="md:flex p-5 space-x-3 text-purple-500 cursor-pointer">
+                <ul className="md:flex p-5 space-x-3 text-purple-600 cursor-pointer">
                 <li className="relative group">
                     <span onClick={toggleDropdown}>
                       Experience

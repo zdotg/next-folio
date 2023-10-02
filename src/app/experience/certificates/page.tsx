@@ -19,9 +19,9 @@ const CERTIFICATES= [
 
 export default function Certs() {
   return (
-    <div className="dark:bg-slate-800 bg-white">
-      <div className="bg-indigo-50 rounded text-center py-5 w-10/12 mx-auto dark:bg-slate-600 dark:rounded dark:border-none">
-          <h2 className="text-center text-3xl font-light py-5 text-white dark:animate-char">
+    <div className=" bg-white">
+      <div className="bg-indigo-50 rounded text-center py-5 w-10/12 mx-auto ">
+          <h2 className="text-center text-3xl font-light py-5 text-white ">
             Certificates
           </h2>
         <div className="flex flex-wrap justify-center"> 
@@ -46,7 +46,7 @@ interface CertificateItemProps {
 }
 
 const CertificateItem: React.FC<CertificateItemProps> = ({ image, alt, description }) => (
-  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 mb-4 text-stone-700 dark:text-slate-100">
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 mb-4 text-stone-700 ">
     <div>
       <Image
         className="transform hover:scale-110 transition-transform"

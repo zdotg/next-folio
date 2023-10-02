@@ -1,6 +1,6 @@
 export default function WorkExperience() {
   return (
-    <div className="flex items-start min-h-screen w-full dark:bg-slate-800 bg-white">
+    <div className="flex items-start min-h-screen w-full bg-white">
       <div className="container shadow-md mx-auto mt-10 py-10">
       <table className="border border-style-one  mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12   ">
       <thead>

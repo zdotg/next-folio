@@ -1,8 +1,8 @@
 export default function AcademicExperience() {
   return (
-    <div className="flex items-start min-h-screen w-full dark:bg-slate-800">
+    <div className="flex items-start min-h-screen w-full ">
       <div className="container shadow-md mx-auto mt-10 py-10">
-      <table className="border border-style-one  mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12 dark:bg-slate-800 bg-white">
+      <table className="border border-style-one  mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12  bg-white">
       <thead>
         <tr >
           <th className="border border-none ">

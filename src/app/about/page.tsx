@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <div
-      className="bg-white flex-grow overscroll-contain text-stone-700 p-5 dark:bg-slate-800 dark:text-slate-100"
+      className="bg-white flex-grow overscroll-contain text-stone-700 p-5"
       id="About"
     >
       <div className="container mx-auto shadow-md ">
@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <div className="w-full md:w-1/2">
             <div className="pb-2">
-              <h2 className="text-2xl font-light dark:text-slate-100">
+              <h2 className="text-2xl font-light">
                 About <span className="text-gradient">Me</span>
               </h2>
               <p className="overflow-auto object-fill">
