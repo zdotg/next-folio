@@ -14,7 +14,10 @@ export default function About() {
     >
       <div className="container mx-auto shadow-md ">
         <div className="flex flex-col lg:flex-row items-center mx-auto max-w-7xl">
-          <div className="w-full md:w-1/2 ">
+            <h2 className="text-2xl font-light pb-0">
+                About <span className="text-gradient">Me</span>
+            </h2>
+          <div className="w-full md:w-1/2 pb-2">
             <Image
               src={AboutMemoji}
               alt="My memoji"
@@ -25,11 +28,9 @@ export default function About() {
               priority
             />
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-5/6 md:w-1/2">
             <div className="pb-2">
-              <h2 className="text-2xl font-light">
-                About <span className="text-gradient">Me</span>
-              </h2>
+              
               <p className="overflow-auto object-fill">
                 I am a passionate and driven individual who discovered my love
                 for web development during the height of the pandemic. 
