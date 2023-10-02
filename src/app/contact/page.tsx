@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Contact()  {
   return (
-    <div className="py-20 bg-white ">
-      <h2 className="text-center text-gradient text-2xl pb-2" id="Contact">
+    <div className="py-10 bg-white ">
+      <h2 className="text-center text-gradient text-2xl font-light pb-5" id="Contact">
         Contact Me
       </h2>
       <div className="mx-auto w-80 lg:w-1/2 p-6 bg-slate-100 rounded-lg shadow-lg">

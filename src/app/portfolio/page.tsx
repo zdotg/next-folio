@@ -9,8 +9,8 @@ export default function Projects()  {
       className="bg-white text-stone-700 p-5 "
       id="Portfolio"
     >
-      <div className="container mx-auto px-4 py-10">
-        <h2 className="text-center text-3xl font-light py-5 text-gradient">
+      <div className="container mx-auto px-4 py-5">
+        <h2 className="text-center text-2xl font-light text-gradient">
           Projects
         </h2>
         <div className="flex flex-wrap justify-center columns-auto ">
