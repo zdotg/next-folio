@@ -2,6 +2,9 @@ import Header from '@/components/Header';
 import './globals.css';
 import type { Metadata } from 'next';
 import Footer from '@/components/Footer';
+import { ThemeProvider } from "./theme-provider";
+
+
 
 
 
@@ -17,10 +20,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="pt-10 mt-5 min-h-full  bg-white">
-        <Header />
-        {children}
-        <Footer />
+      <body className="pt-10 mt-5 min-h-full  bg-white dark:bg-slate-700">
+      
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
+        
       </body>
     </html>
   )

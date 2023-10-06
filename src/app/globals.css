@@ -61,7 +61,7 @@ body {
 
 .text-gradient {
   text-transform: capitalize;
-  background-image: linear-gradient(-225deg, #231557 0%, #a855f7 29%, #8b5cf6 67%, #6366f1 100%);
+  background-image: linear-gradient(-225deg, #534091 0%, #a855f7 29%, #8b5cf6 67%, #6366f1 100%);
   background-size: 200% auto;
   background-clip: border-box;
   color: #fff;

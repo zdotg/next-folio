@@ -9,13 +9,13 @@ export default function About() {
 
   return (
     <div
-      className="bg-white flex-grow overscroll-contain text-stone-700 p-5"
+      className=" dark:text-slate-100  dark:bg-flex-grow overscroll-contain text-slate-500 p-5"
       id="About"
     >
       <div className="container mx-auto shadow-md ">
         <div className="flex flex-col lg:flex-row items-center mx-auto max-w-7xl">
-            <h2 className="text-2xl font-light pb-0">
-                About <span className="text-gradient">Me</span>
+            <h2 className="text-2xl font-semibold pb-0">
+                 <span className="text-gradient">About Me</span>
             </h2>
           <div className="w-full md:w-1/2 pb-2">
             <Image

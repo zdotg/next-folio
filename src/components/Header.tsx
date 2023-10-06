@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { ThemeSwitcher } from "./ThemeSwitcher";
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +22,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="bg-white w-full fixed top-0 left-0 right-0 z-10 py-3">
+      <div className="bg-white dark:bg-slate-700 w-full fixed top-0 left-0 right-0 z-10 py-3">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div className="flex items-center justify-between">
               <Link
@@ -28,10 +30,11 @@ export default function Header() {
                 className="text-4xl font-light text-stone-700 cursor-pointer antialiased"
               >
                 <span className="text-gradient">ZG;</span>
-              </Link>
-              <div className="md:hidden">
+            </Link>
+            <div className="flex items-center md:hidden">
+                <ThemeSwitcher />
                 <button
-                  className="p-2 text-gray-700 outline-none  rounded-md focus:border-purple-400"
+                  className="p-2 text-stone-700 dark:text-stone-300 outline-none  rounded-md focus:border-purple-400"
                   type="button"
                   onClick={toggle}
                 >
@@ -50,7 +53,7 @@ export default function Header() {
                   isOpen ? "md:p-0 block" : "hidden"
                 }`}
               >
-                <ul className="md:flex p-5 space-x-3 text-purple-600 cursor-pointer">
+                <ul className="md:flex p-5 space-x-3 text-purple-600 dark:text-purple-400 cursor-pointer">
                 <li className="relative group">
                     <span onClick={toggleDropdown}>
                       Experience

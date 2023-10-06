@@ -1,11 +1,11 @@
 export default function WorkExperience() {
   return (
-    <div className="flex items-start min-h-screen w-full bg-white">
+    <div className="flex items-start min-h-screen w-full bg">
       <div className="container shadow-md mx-auto mt-5 py-5">
-        <div className="text-2xl text-gradient text-center">
+        <div className="text-2xl text-gradient font-semibold text-center">
           Experience
         </div>
-      <table className="border-solid border-2 border-violet-500 mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12  text-slate-500 bg-violet-100">
+      <table className="border-solid border-2 border-violet-500 mx-auto mt-10 py-0 content-start justify-start w-80 md:w-9/12  text-slate-500 dark:text-slate-700 bg-violet-100">
       <thead>
         <tr>
           <th className="border-solid border-2 border-violet-500 ">

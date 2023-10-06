@@ -6,11 +6,11 @@ import Image from "next/image";
 export default function Projects()  {
   return (
     <section
-      className="bg-white text-stone-700 p-5 "
+      className=" text-slate-700 dark:text-slate-300 p-5 "
       id="Portfolio"
     >
       <div className="container mx-auto px-4 py-5">
-        <h2 className="text-center text-2xl font-light text-gradient">
+        <h2 className="text-center text-2xl font-semibold text-gradient ">
           Projects
         </h2>
         <div className="flex flex-wrap justify-center columns-auto ">
@@ -35,7 +35,7 @@ export default function Projects()  {
                       legacyBehavior
                       href="https://github.com/zdotg/next-folio/tree/main"
                     >
-                      <a className="px-4 py-2 inline-block bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
+                      <a className="px-4 py-2 inline-block dark:text-slate-100 bg-gradient-to-r from-violet-400 to-indigo-300 text-white rounded-md font-medium hover:scale-105 transition-transform duration-200">
                         View Code
                       </a>
                     </Link>

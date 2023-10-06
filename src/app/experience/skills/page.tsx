@@ -8,7 +8,7 @@ export default function Skills() {
       id="Skills"
     >
       <div className="max-w-3/4">
-        <h2 className="text-center text-2xl text-gradient font-light py-2 ">
+        <h2 className="text-center text-2xl text-gradient font-semibold py-2 ">
           Skills
         </h2>
         <div className="row text-center my-auto py-5 flex justify-center">
@@ -23,7 +23,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="row  py-5 px-2 text-center border bg-violet-100 text-slate-500 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="row  py-5 px-2 text-center border bg-violet-100 text-slate-500 dark:text-slate-700 grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="mb-3 leading-relaxed capitalize hover:scale-125 ">
             <ul>
               <li>React</li>

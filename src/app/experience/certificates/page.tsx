@@ -19,8 +19,8 @@ const CERTIFICATES= [
 
 export default function Certs() {
   return (
-    <div className="bg-white ">
-       <h2 className="text-center text-2xl font-light py-5 mt-5 text-gradient">
+    <div >
+       <h2 className="text-center text-2xl font-semibold py-5 mt-5 text-gradient">
             Certificates
           </h2>
       <div className="flex text-center py-5 w-10/12 mx-auto bg-violet-100  place-content-center">
