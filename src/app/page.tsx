@@ -13,7 +13,7 @@ export default function Intro() {
           <div className="flex flex-col justify-center lg:w-1/3 lg:items-start">
             <div className=" pb-2 ">
                 <div className="text-4xl lg:text-5xl space-y-4">
-                  <span className="text-xl pl-4 lg:pl-10">Hi, I'm Zach<br /></span>
+                  <span className="text-xl pl-4 lg:pl-10">Hi, I&apos;m Zach<br /></span>
                   <div className="flex justify-center  bg-violet-100 dark:bg-violet-300 rounded-full py-3 lg:block">
                     <span className="text-gradient font-semibold lg:pl-10">Full Stack</span>{" "}
                     <span className="pb-0 pl-1 lg:pl-10">Developer<br /></span>
