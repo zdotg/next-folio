@@ -50,7 +50,7 @@ export default function Header() {
               </div>
           </div>
           <div className="flex items-center">
-                <div className="mr-4 item-start invisible md:visible">
+                <div className="hidden md:block mr-4 item-start">
                   <ThemeSwitcher />
                 </div>
               <nav
