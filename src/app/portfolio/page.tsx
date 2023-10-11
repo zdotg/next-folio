@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import portfolio from "../../../public/images/zg-folio.jpg";
+import portfolio from "../../../public/images/zg-folio.png";
 import Image from "next/image";
 
 export default function Projects()  {
