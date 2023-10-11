@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import portfolio from "../../../public/images/portfolio.png";
+import portfolio from "../../../public/images/zg-folio.jpg";
 import Image from "next/image";
 
 export default function Projects()  {
@@ -19,7 +19,7 @@ export default function Projects()  {
               <Image
                 src={portfolio}
                 priority={true}
-                className="w-full h-1/2 object-cover"
+                className="w-full h-1/2 object-cover border-solid border-4 border-indigo-200 rounded-md"
                 alt="Portfolio Snippet"
               />
               <div className="flex flex-grow p-4">
