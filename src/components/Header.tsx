@@ -21,8 +21,8 @@ export default function Header() {
   }
 
   return (
-    <div>
-      <div className="bg-white dark:bg-slate-700 w-full fixed top-0 left-0 right-0 z-10 py-3">
+    <div >
+      <div className="bg-white dark:bg-slate-800 py-3 w-full border-b-2 border-indigo-500 fixed top-0 left-0 right-0 z-10 ">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div className="flex items-center justify-between">
               <Link
@@ -32,7 +32,9 @@ export default function Header() {
                 <span className="text-gradient">ZG;</span>
             </Link>
             <div className="flex items-center md:hidden">
-                <ThemeSwitcher />
+                <div className="mr-4 md:visible">
+                  <ThemeSwitcher />
+                </div>
                 <button
                   className="p-2 text-stone-700 dark:text-stone-300 outline-none  rounded-md focus:border-purple-400"
                   type="button"
@@ -46,8 +48,11 @@ export default function Header() {
                   )}
                 </button>
               </div>
-            </div>
-            <div>
+          </div>
+          <div className="flex items-center">
+                <div className="mr-4 item-start hidden md:visible">
+                  <ThemeSwitcher />
+                </div>
               <nav
                 className={`flex-1  pb-3 text-center py-0  md:block md:pb-0 md:mt-0 ${
                   isOpen ? "md:p-0 block" : "hidden"
